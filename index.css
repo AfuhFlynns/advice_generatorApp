@@ -1,0 +1,85 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: poppins;
+    background-color: rgb(7, 14, 37);
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    align-items: center;
+    text-align: center;
+    width: 100vw;
+    height: 100vh;
+}
+#Container{
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    align-items: center;
+    background-color: rgb(23, 25, 39);
+    width: 13cm;
+    color: white;
+    justify-self: center;
+    height: 8cm;
+    border-radius: 25px;
+    flex-wrap: wrap;
+    margin: 6rem 0 0 0;
+    justify-content: space-between;
+}
+#heading{
+    color: white;
+    font-size: 20px;
+    text-transform:uppercase;
+    padding: 50px 0 0 0;
+}
+#adviceNumber{
+    color:blueviolet;
+    font-weight: bold;
+    font-size: large;
+    padding: 7px 0 0 0;
+}
+#item{
+    display: flex;
+    flex-direction: row;
+    font-size: 30px;
+    font-weight: bolder;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Times New Roman', Times, serif;
+    padding: 1rem 0 0 0;
+}
+#btn{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    align-self: center;
+    border: none;
+    width: 1.3cm;
+    border-radius: 150px;
+    background-color: blueviolet;
+    height: 1.3cm;
+    margin-top: -25px;
+    border: 2px solid rgb(92, 93, 99);
+}
+#btn:hover{
+    opacity: 0.999;
+    cursor: pointer;
+    box-shadow: 0 0 10px 0 rgb(180, 125, 231),
+              0 0 20px 5px rgb(180, 125, 231),
+              0 0 30px 10px rgb(180, 125, 231),
+              0 0 40px 15px rgb(180, 125, 231);
+}
+img{
+    lighting-color: white;
+}
+.contentBody{
+    display: flex;
+    flex-direction: column;
+}
+#linethrough{
+    display: none;
+}
