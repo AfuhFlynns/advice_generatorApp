@@ -8,17 +8,24 @@
 </head>
 <body>
     <div class="contentBody">
+        <div id="chageMode"><button id="lightMode" onclick="changeMode()"><img src="rest-countries\download.png" alt="lightmode" id="lightMode"></button><button id="darkMode" onclick="changeMode()"><img src="rest-countries\download (1).png" alt="darkmode" id="darkMode"></button></div>
         <h1 id="heading">My Advice generator app</h1>
         <div id="Container">
             <div id="adviceContainer">
-                <div id="adviceNumber">ADVICE # <span id="hashNumber"></span></div>
+                <div id="adviceNumber">ADVICE &ThickSpace;&ThinSpace;# <span id="hashNumber">0</span></div>
                 <p id="item"><span id="adviceDisplay">"It is easy to stand up and talk, but it is difficult to take action"</span></p>
+                <p id="authorName">[Unkown!]</p>
             </div>
-            <hr id="linethrough"/>
+            <hr id="linethrough"/> <p id="adviceDate">10/10/2005</p>
         </div>
-        <button type="submit" id="btn" onclick="adviceGenerator()"><img src="./advice-generator-app-main/images/icon-dice.svg" alt="This is the button"></button>
-    </div> 
-    <script src="E:\Flynns\Advice generator\docs\assets\js\jquery.js"></script>
+        <button id="previousButton"><span id="backArrow">&LeftArrow;</span>Previous</button>
+        <button type="submit" id="btn"><img src="./advice-generator-app-main/images/icon-dice.svg" alt="Next"></button>
+    </div>
+    <div id="welcomePopup">
+        <button id="cancelWelcome">X</button>
+        <h1 id="popupHeading">Welcome to Aftech Advice Generator app</h1>
+        <p id="popupIntroduction">With this advice generator app you have the opportunity to recieve at least 50 Randomly generated advice that can boost your day <br/><i>Click the rollette for next advice</i></p>
+    </div>
     <script src="index.js"></script>
 </body>
 </html>

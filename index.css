@@ -23,11 +23,12 @@ body{
     width: 13cm;
     color: white;
     justify-self: center;
-    height: 8cm;
+    height: 7cm;
     border-radius: 25px;
     flex-wrap: wrap;
     margin: 6rem 0 0 0;
     justify-content: space-between;
+    padding: 0 15px 0 15px;
 }
 #heading{
     color: white;
@@ -50,6 +51,7 @@ body{
     align-items: center;
     font-family: 'Times New Roman', Times, serif;
     padding: 1rem 0 0 0;
+    letter-spacing: 1px;
 }
 #btn{
     display: flex;
@@ -62,7 +64,7 @@ body{
     border-radius: 150px;
     background-color: blueviolet;
     height: 1.3cm;
-    margin-top: -25px;
+    margin-top: -20px;
     border: 2px solid rgb(92, 93, 99);
 }
 #btn:hover{
@@ -84,15 +86,161 @@ img{
 #linethrough{
     display: none;
 }
-
+#authorName{
+    margin:  0.6rem 0 0 0;
+    font-weight: lighter;
+    font-size: small;
+    opacity: 0.5;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+#adviceDate{
+    margin:  0.6rem 0 0 0;
+    font-weight: lighter;
+    font-size: medium;
+    opacity: 0.8;
+    display: flex;
+    margin: 0 -21rem 0.6rem 0;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+#chageMode{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    right: 3px;
+    background-color: rgb(19, 19, 20);
+    opacity: 0.5;
+    height: 1.3cm;
+    width: 1.3cm;
+    border-radius: 70px;
+    margin: 1rem 1rem 0 0;
+}
+#darkMode{
+    background-color: black;
+    box-shadow: 2px 2px 2px rgb(38, 38, 39),
+    2px 2px 2px rgb(38, 38, 39),
+    2px 2px 2px rgb(38, 38, 39),
+    2px 2px 2px rgb(38, 38, 39),
+    2px 2px 2px rgb(38, 38, 39);
+    height: 0.9cm;
+    width: 0.9cm;
+    border: none;
+    border-radius: 50px;
+}
+#lightMode{
+    height: 0.9cm;
+    border: none;
+    border-radius: 50px;
+    position: absolute;
+    left: 3.6px;
+    top: 4px;
+}
+#darkMode:hover{
+    cursor: pointer;
+}
+#lightMode:hover{
+    cursor: pointer;
+}
+#previousButton{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: left;
+    border: none;
+    background-color: rgb(23, 25, 39);
+    width: 1.8cm;
+    color: white;
+    margin: -1.8rem 0 0 1rem;
+    gap: 3px;
+    padding: 0 0 0 2rem;
+}
+#previousButton:hover{
+    cursor: pointer;
+}
+#backArrow{
+    size: 40rem;
+    align-self: center;
+    justify-self: center;
+}
+#welcomePopup{
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    top: 4rem;
+    width: 23cm;
+    height: 13cm;
+    color: rgb(148, 159, 168);
+    border-radius: 50px;
+    text-align: center;
+    background-color: rgb(24, 26, 41, 0.98);
+    background-blend-mode: darken;
+    display: none;
+}
+#popupHeading{
+    display: flex;
+    font-size: 18px;
+    text-transform: uppercase;
+}
+#popupIntroduction{
+    display: flex;
+    flex-direction: column;
+    font-size: 14px;
+    width: 14cm;
+}
+#cancelWelcome{
+    position: fixed;
+    font-size: xx-large;
+    font-weight: bolder;
+    border: none;
+    color: rgb(148, 156, 165);
+    top: 6rem;
+    right: 18rem;
+    border-radius: 25px;
+    width: 1.3cm;
+    height: 1.3cm;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-transform: uppercase;
+    background-color: rgb(24, 26, 41, 0.98);
+}
+#cancelWelcome:hover{
+    background-color: rgba(36, 38, 53, 0.98);
+}
 @media screen and (max-width:700px) {
+    body{
+        width: 100vw;
+        height: 100vh;
+    }
     #heading{
         padding: 80px 0 0 0;
     }
     #Container{
         width: 11cm;
-        height: 10cm;
+        height: 8cm;
         margin: 2rem 0 0 0;
         justify-content: space-between;
+    }
+    #adviceDate{
+        margin: 0 -16rem 0.6rem 0;
+    }
+    #welcomePopup{
+        width: 13cm;
+        height: 12cm;
+        color: rgb(148, 159, 168);
+        gap: 3rem;
+    }
+    #popupHeading{
+        font-size: 16px;
+    }
+    #popupIntroduction{
+        width: 11cm;
+    }
+    #cancelWelcome{
+        right: 4rem;
     }
 }
