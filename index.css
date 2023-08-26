@@ -64,7 +64,8 @@ body{
     border-radius: 150px;
     background-color: blueviolet;
     height: 1.3cm;
-    margin: -20px -25rem 0 0;
+    margin-top: -20px;
+    margin-left: -60px;
     border: 2px solid rgb(92, 93, 99);
 }
 #btn:hover{
