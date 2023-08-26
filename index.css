@@ -217,11 +217,11 @@ img{
         height: 100vh;
     }
     #heading{
-        padding: 120px 0 0 0;
+        padding: 130px 0 0 0;
     }
     #Container{
         width: 9cm;
-        height: 6cm;
+        height: 7.3cm;
         margin: 3rem 0 0 0;
         justify-content: space-between;
     }
@@ -237,8 +237,8 @@ img{
         padding: 0 0 0 0.5rem;
     }
     #welcomePopup{
-        width: 13cm;
-        height: 12cm;
+        width: 100vw;
+        height: 50vh;
         color: rgb(148, 159, 168);
         gap: 3rem;
     }
