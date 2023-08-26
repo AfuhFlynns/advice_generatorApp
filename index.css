@@ -240,8 +240,6 @@ img{
         width: 90vw;
         height: 50vh;
         position: fixed;
-        display: flex;
-        flex-direction: column;
         gap: 2rem;
     }
     #popupHeading{
