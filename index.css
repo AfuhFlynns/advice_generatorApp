@@ -240,18 +240,21 @@ img{
         width: 90vw;
         height: 50vh;
         position: fixed;
-        top: 50;
-        bottom: 50;
-        color: rgb(148, 159, 168);
-        gap: 3rem;
+        display: flex;
+        flex-direction: column;
+        top: 50%;
+        bottom: 50%;
+        gap: 2rem;
     }
     #popupHeading{
-        font-size: 16px;
+        font-size: 12px;
     }
     #popupIntroduction{
-        width: 11cm;
+        width: 70vw;
+        font-size: small;
     }
     #cancelWelcome{
         right: 4rem;
+        font-size: medium;
     }
 }
