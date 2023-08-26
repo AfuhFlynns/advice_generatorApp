@@ -242,8 +242,6 @@ img{
         position: fixed;
         display: flex;
         flex-direction: column;
-        top: 50%;
-        bottom: 50%;
         gap: 2rem;
     }
     #popupHeading{
@@ -256,5 +254,6 @@ img{
     #cancelWelcome{
         right: 4rem;
         font-size: medium;
+        position: relative;
     }
 }
