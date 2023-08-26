@@ -247,8 +247,8 @@ img{
         justify-content: center;
         align-items: center;
         width: 90vw;
+        padding: 1px;
         height: 45vh;
-        padding: 7rem 0 0 0;
         margin: 7rem 0 0 0;
         gap: 3rem;
     }
