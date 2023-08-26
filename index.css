@@ -243,11 +243,13 @@ img{
     }
     #welcomePopup{
         display: flex;
-        flex-direction: column;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
         width: 90vw;
-        height: 50vh;
+        height: 45vh;
         padding: 7rem 0 0 0;
-        margin: 8.5rem 0 0 0;
+        margin: 7rem 0 0 0;
         gap: 3rem;
     }
     #popupHeading{
