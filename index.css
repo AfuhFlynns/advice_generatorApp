@@ -220,10 +220,13 @@ img{
         padding: 120px 0 0 0;
     }
     #Container{
-        width: 11cm;
+        width: 9cm;
         height: 8cm;
-        margin: 2rem 0 0 0;
+        margin: 6rem 0 0 0;
         justify-content: space-between;
+    }
+    #item{
+        font-size: 15px;
     }
     #adviceDate{
         margin: 0 -16rem 0.6rem 0;
