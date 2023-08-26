@@ -260,8 +260,7 @@ img{
         font-size: small;
     }
     #cancelWelcome{
-        right: 4rem;
         font-size: medium;
-        position: relative;
+        margin: 0 0 4rem 6rem;
     }
 }
