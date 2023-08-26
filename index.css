@@ -14,12 +14,6 @@ body{
     width: 100vw;
     height: 100vh;
 }
-#contentBody{
-    width: 100vw;
-    height: 100vh;
-    align-items: center;
-    justify-content: center;
-}
 #Container{
     display: flex;
     flex-direction: column;
@@ -70,7 +64,7 @@ body{
     border-radius: 150px;
     background-color: blueviolet;
     height: 1.3cm;
-    margin: -20px 25px 0 0;
+    margin: -20px -25rem 0 0;
     border: 2px solid rgb(92, 93, 99);
 }
 #btn:hover{
