@@ -222,14 +222,19 @@ img{
     #Container{
         width: 9cm;
         height: 8cm;
-        margin: 6rem 0 0 0;
+        margin: 5rem 0 0 0;
         justify-content: space-between;
     }
     #item{
         font-size: 15px;
     }
     #adviceDate{
-        margin: 0 -16rem 0.6rem 0;
+        margin: 0 -12rem 0.6rem 0;
+    }
+    #previousButton{
+        margin: -1.8rem 0 0 1rem;
+        gap: 3px;
+        padding: 0 0 0 0.5rem;
     }
     #welcomePopup{
         width: 13cm;
