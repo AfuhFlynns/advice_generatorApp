@@ -291,7 +291,7 @@ $(document).ready(function (){
                             darkMode.style.display=`block`
                             document.getElementById("chageMode").style.backgroundColor = `black`
                             document.getElementById("chageMode").style.opacity = `0.9`;
-                            document.getElementById("heading").style.color = `white`
+                            document.getElementById("heading").style.color = `blueviolet`
                             document.getElementById("heading").style.opacity = `0.8`
                             document.getElementById("item").style.color = `white`
                             document.getElementById("item").style.opacity = `0.5`
@@ -309,7 +309,7 @@ $(document).ready(function (){
                     function toDarkMode() {
                         darkMode.addEventListener("click", e=>{
                             lightMode.style.display=`block`
-                            document.getElementById("heading").style.color = `white`
+                            document.getElementById("heading").style.color = `blueviolet`
                             document.getElementById("heading").style.opacity = `0.99`
                             document.getElementById("item").style.opacity = `0.99`
                             darkMode.style.display=`none`
