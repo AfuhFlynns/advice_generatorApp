@@ -329,6 +329,7 @@ $(document).ready(function (){
             //Working on the popup
             const cancelPopupbtn = document.getElementById("cancelWelcome")
             const welcomePopup = document.getElementById("welcomePopup")
+            const contentBody = document.getElementById("contentBody")
             const showPopup = ()=>{
                 setTimeout(() => {
                     welcomePopup.style.display = `flex`
@@ -336,10 +337,8 @@ $(document).ready(function (){
                     bodyBackgroundchange.style.backgroundColor = `rgb(36, 35, 35)`
                     const changeHeading = document.getElementById("heading")
                     changeHeading.style.opacity = `0.1`
-                    if (welcomePopup.style.display == `flex`) {
-                        const contentBody = document.getElementsByClassName("contentBody")
-                        contentBody.style.display `none`
-                    }
+                    contentBody.style.display = `none`
+                    
                 }, 6000);
             }
             showPopup()
@@ -352,6 +351,7 @@ $(document).ready(function (){
             }
             disablePopup();
             cancelPopupbtn.addEventListener("click", e=>{
+                contentBody.style.display = `flex`
                 disablePopup();
                 headingcolor();
             })
