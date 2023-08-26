@@ -290,7 +290,7 @@ $(document).ready(function (){
                         lightMode.addEventListener("click", e=>{
                             darkMode.style.display=`block`
                             document.getElementById("chageMode").style.backgroundColor = `black`
-                            document.getElementById("chageMode").style.opacity = `0.9`;
+                            document.getElementById("chageMode").style.opacity = `1`;
                             document.getElementById("heading").style.color = `blueviolet`
                             document.getElementById("heading").style.opacity = `0.8`
                             document.getElementById("item").style.color = `white`
