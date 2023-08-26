@@ -336,6 +336,10 @@ $(document).ready(function (){
                     bodyBackgroundchange.style.backgroundColor = `rgb(36, 35, 35)`
                     const changeHeading = document.getElementById("heading")
                     changeHeading.style.opacity = `0.1`
+                    if (welcomePopup.style.display == `flex`) {
+                        const contentBody = document.getElementsByClassName("contentBody")
+                        contentBody.style.display `none`
+                    }
                 }, 6000);
             }
             showPopup()
