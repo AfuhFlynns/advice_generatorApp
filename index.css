@@ -237,8 +237,11 @@ img{
         padding: 0 0 0 0.5rem;
     }
     #welcomePopup{
-        width: 100vw;
+        width: 90vw;
         height: 50vh;
+        position: fixed;
+        top: 50;
+        bottom: 50;
         color: rgb(148, 159, 168);
         gap: 3rem;
     }
