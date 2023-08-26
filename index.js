@@ -351,7 +351,7 @@ $(document).ready(function (){
             }
             disablePopup();
             cancelPopupbtn.addEventListener("click", e=>{
-                contentBody.style.display = `flex`
+                contentBody.style.display = `block`
                 disablePopup();
                 headingcolor();
             })
